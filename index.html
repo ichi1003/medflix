@@ -8,7 +8,21 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link type="text/css" rel="stylesheet" href="./srcs/homepage.58a728c38c53165dcf42.css">
-    <script src="./srcs/home.js.a94634add08943ab8660.js.下載" async=""></script>
+<!-- Stacey test start
+    <link
+      type="text/css"
+      rel="stylesheet"
+      href="../test/v0/首頁 - Netflix_files/akiraClient.a3020a4ee48d2185ac31.css"
+      data-uia="botLink"
+    >
+
+Stacey test end -->
+    <script src="./srcs/home.js.a94634add08943ab8660.js" async="">
+      video.addEventListener('click',
+                             function() { video.play(); },
+                             false);
+
+    </script>
     <link rel="shortcut icon" href="./srcs/mficon.ico">
     <link rel="apple-touch-icon" href="./srcs/mficon.png">
   </head>
@@ -128,6 +142,50 @@
               </tr>
             </tbody>
           </table>
+<!-- Stacey test start -->
+
+        <div class="mainView" id="main-view" role="main">-->
+          <div class="lolomo is-fullbleed">
+            <span class="volatile-billboard-animations-container">
+              <div class="billboard-row" role="region" aria-label="精選內容">
+                <div class="ptrack-container billboard-presentation-tracking">
+                  <div
+                    class="billboard-presentation-tracking ptrack-content"
+                    data-ui-tracking-context="%7B%22location%22:%22homeScreen%22,%22rank%22:0,%22request_id%22:%225ac95688-defa-4a25-a883-cc5a0a32f0c1-275486776%22,%22row%22:0,%22track_id%22:254015180,%22video_id%22:81716080,%22image_key%22:%22BILLBOARD%7C91eb8f60-8207-11ee-be36-0e5f74f0509d%7Cen%7CYDK%7C81716081%22,%22supp_video_id%22:1,%22lolomo_id%22:%22NES_23B187DA0BE193BE2D10DF9CF02922_p_1700906545459%22,%22list_id%22:%22NES_23B187DA0BE193BE2D10DF9CF02922-951BB306AEF2A8-E3C3ADEEA0_p_1700906545459%22,%22appView%22:%22billboard%22%7D"
+                    data-tracking-uuid="b81fe7bf-e32a-4ff0-ae7a-199ea4505051"
+                  >
+                    <div
+                      class="billboard-presentation-tracking ptrack-content"
+                      data-ui-tracking-context="%7B%22list_id%22:%22NES_23B187DA0BE193BE2D10DF9CF02922-951BB306AEF2A8-E3C3ADEEA0_p_1700906545459%22,%22location%22:%22homeScreen%22,%22rank%22:0,%22request_id%22:%225ac95688-defa-4a25-a883-cc5a0a32f0c1-275486776%22,%22row%22:0,%22track_id%22:254015180,%22unifiedEntityId%22:%22Video:81716080%22,%22video_id%22:81716080,%22image_key%22:%22BILLBOARD%7C91eb8f60-8207-11ee-be36-0e5f74f0509d%7Cen%7CYDK%7C81716081%22,%22supp_video_id%22:1,%22lolomo_id%22:%22NES_23B187DA0BE193BE2D10DF9CF02922_p_1700906545459%22,%22appView%22:%22boxArt%22,%22usePresentedEvent%22:true%7D"
+                      data-tracking-uuid="e5cd6473-da44-4276-9a21-2cd7900181c3"
+                    >
+                      <div class="billboard billboard-pane billboard-originals trailer-billboard">
+                        <div class="hero-image-wrapper">
+                          <video id="LogoAnimation" width=100% height=100% poster="video/poster.jpg" autoplay onclick="if (typeof InstallTrigger == 'undefined') (this.paused ? this.play() : this.pause());">
+                            <source src="video/LogoAnimation_whole_HD.mp4" type="video/mp4">
+                          </video>
+                          <div class="trailer-vignette vignette-layer"></div>
+                          <div class="hero-vignette vignette-layer"></div>
+                          <div class="embedded-components button-layer">
+                            <span class="maturity-rating">
+                              <a
+                                id="LogoAnimationPlay"
+                                style="color:#999"
+                                onclick="playVid()"
+                              >
+                                播放片頭
+                            </a>
+                            </span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </span>
+          </div>
+
           <div class="body-view" data-progressive-low="true">
             <div class="lolomo lolomo-standalone">
               <div class="single-row-lomo has-inline-left-gutter lomo-scanned">
@@ -404,32 +462,41 @@
               </div>
             </div>
           </div>
-          <div class="footer has-inline-gutter">
-            <ol>
-              <li><a href="https://staceylai.github.io/medflix_dev2/">工作人員名冊</a></li>
-              <li><a>使用條款</a></li>
-              <li><a>隱私權聲明</a></li>
-              <li><a>Cookie 設定</a></li>
-              <li><a href="https://staceylai.github.io/medflix_dev2/">說明中心</a></li>
-            </ol>
-          </div>
+        </div>
+        <div class="footer has-inline-gutter">
+          <ol>
+            <li><a href="https://staceylai.github.io/medflix_dev2/">工作人員名冊</a></li>
+            <li><a>使用條款</a></li>
+            <li><a>隱私權聲明</a></li>
+            <li><a>Cookie 設定</a></li>
+            <li><a href="https://staceylai.github.io/medflix_dev2/">說明中心</a></li>
+          </ol>
         </div>
       </div>
     </div>
-    <div>
-      <script>window.netflix = window.netflix || {}; netflix.reactContext = { "models": { "browserInfo": { "data": { "name": "Chrome\x20Mobile", "version": "116.0.0.0", "major": 116, "minor": 0, "patch": 0, "os": { "name": "Android", "fullName": "Android", "version": "6.0.0", "majorVersion": 6, "minorVersion": 0, "patchVersion": 0 }, "device": { "family": "Nexus\x205" }, "isFirefox": false, "isSafari": false, "isIE": false, "isEdge": false, "isChrome": true, "isTesla": false, "isOpera": false, "isEdgeOSS": false, "isWindows": false, "isMac": false, "isChromeOS": false, "isLinux": false, "isAndroid": true, "isIOS": false, "isIOSGT91": false, "isWindowsPhone": false, "isMobile": true, "isAndroidPhone": true, "isWindowsVista": false, "isWindowsXP": false, "isWindows7": false, "isWindows8": false, "isWindows10": false, "originallyIdentifiedAsAppleMail": false, "features": { "webp": true, "es2015": false, "fontDisplayProperty": true, "supportsGames": false, "drmSystem": "widevine", "maybeSupportsHTML5": true, "maybeSupportsHTML5withDRM": true, "maybeSupportsSL": false }, "specialFlags": {}, "esnPrefix": "NFCDCH-AP-", "_rawResult": { "family": "Chrome\x20Mobile", "major": "116", "minor": "0", "patch": "0", "device": { "family": "Nexus\x205", "major": "0", "minor": "0", "patch": "0" }, "os": { "family": "Android", "major": "6", "minor": "0", "patch": "0" } } }, "type": "Model" }, "geo": { "data": { "locale": { "id": "zh-TW" } } }, "truths": { "data": { "isIELt12": false, "isIELt10": false, "isIELt9": false, "isIELt8": false, "isIpadSafariLt8": false, "isSafariLt8": false, "isSafariGt5": false, "isChromeLt47": false, "isAndroidBrowserLt4": false, "isIELt9AndIpadLt8": false, "needsShim": false, "missingFullVWSupport": false, "missingArrayFind": true, "currentProfileIsKids": false } } } };</script>
-    </div>
-    <script>
-      if ('serviceWorker' in navigator && navigator.serviceWorker.getRegistrations) {
-        navigator.serviceWorker.getRegistrations().then(function (registrations) {
-          if (registrations) {
-            registrations.forEach(function (registration) {
-              registration.unregister().catch(function () { });
-            });
-          }
-        }).catch(function () { });
-      }
-    </script>
-  </body>
+  </div>
+  <div>
+    <script>window.netflix = window.netflix || {}; netflix.reactContext = { "models": { "browserInfo": { "data": { "name": "Chrome\x20Mobile", "version": "116.0.0.0", "major": 116, "minor": 0, "patch": 0, "os": { "name": "Android", "fullName": "Android", "version": "6.0.0", "majorVersion": 6, "minorVersion": 0, "patchVersion": 0 }, "device": { "family": "Nexus\x205" }, "isFirefox": false, "isSafari": false, "isIE": false, "isEdge": false, "isChrome": true, "isTesla": false, "isOpera": false, "isEdgeOSS": false, "isWindows": false, "isMac": false, "isChromeOS": false, "isLinux": false, "isAndroid": true, "isIOS": false, "isIOSGT91": false, "isWindowsPhone": false, "isMobile": true, "isAndroidPhone": true, "isWindowsVista": false, "isWindowsXP": false, "isWindows7": false, "isWindows8": false, "isWindows10": false, "originallyIdentifiedAsAppleMail": false, "features": { "webp": true, "es2015": false, "fontDisplayProperty": true, "supportsGames": false, "drmSystem": "widevine", "maybeSupportsHTML5": true, "maybeSupportsHTML5withDRM": true, "maybeSupportsSL": false }, "specialFlags": {}, "esnPrefix": "NFCDCH-AP-", "_rawResult": { "family": "Chrome\x20Mobile", "major": "116", "minor": "0", "patch": "0", "device": { "family": "Nexus\x205", "major": "0", "minor": "0", "patch": "0" }, "os": { "family": "Android", "major": "6", "minor": "0", "patch": "0" } } }, "type": "Model" }, "geo": { "data": { "locale": { "id": "zh-TW" } } }, "truths": { "data": { "isIELt12": false, "isIELt10": false, "isIELt9": false, "isIELt8": false, "isIpadSafariLt8": false, "isSafariLt8": false, "isSafariGt5": false, "isChromeLt47": false, "isAndroidBrowserLt4": false, "isIELt9AndIpadLt8": false, "needsShim": false, "missingFullVWSupport": false, "missingArrayFind": true, "currentProfileIsKids": false } } } };</script>
+  </div>
+  <script>
+    if ('serviceWorker' in navigator && navigator.serviceWorker.getRegistrations) {
+      navigator.serviceWorker.getRegistrations().then(function (registrations) {
+        if (registrations) {
+          registrations.forEach(function (registration) {
+            registration.unregister().catch(function () { });
+          });
+        }
+      }).catch(function () { });
+    }
+  </script>
+
+  <script>
+    var videoPlayer = document.getElementById('LogoAnimation');
+    function playVid() { 
+      videoPlayer.play(); 
+    }
+
+  </script>
+</body>
 
 </html>
