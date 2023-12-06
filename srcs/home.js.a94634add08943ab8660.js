@@ -95,7 +95,13 @@
         "use strict"; var r = n(9755), o = n(3189); e.exports = function () { var e = [{ width: 500, columns: 2 }, { width: 800, columns: 3 }, { width: 1100, columns: 4 }, { width: 1400, columns: 5 }, { width: 1700, columns: 6 }, { width: 2e3, columns: 7 }, { width: 1 / 0, columns: 8 }], t = 1 / 0, n = r(window), i = r(".column-counter"), a = o(function () { var o, a = n.width(); a !== t && (r.each(e, function (e, t) { return !(t.width >= a) || (o = t.columns, !1) }), i.removeClass("column-2 column-3 column-4 column-5 column-6 column-7 column-8").addClass("column-" + o), t = a, document.cookie = [encodeURIComponent("fAkira"), "=", encodeURIComponent(o), "; domain=.netflix.com", "; path=/"].join(""), n.trigger("resize:complete", [o])) }, 33, !0); a(), n.on("resize", a) }
       },
       5274: function (e, t, n) {
-        "use strict"; var r = n(9755), o = n(1476), i = n(1773), a = n(8024); e.exports = function () { r(a.getModelData("truths").isIELt10 ? i : o) }
+        "use strict"; var r = n(9755), o = n(1476), i = n(1773), a = n(8024); e.exports = function () {
+          if (a.getModelData("truths") === undefined) {
+            r(o)
+          } else {
+            r(a.getModelData("truths").isIELt10 ? i : o)
+          }
+        }
       },
       8378: function (e, t, n) {
         "use strict"; var r = n(9755); r(n(6408)), r(n(5672)), r(n(7644)), r(n(4856)), r(n(5274)), r(function () { var e = r(window), t = r(".lolomo"), n = r(".body-view"), o = n.data("progressive-low"), i = r(".column-counter").hasClass("kids"), a = o || i ? [{ from: 4, to: 9, data: null, complete: !1 }, { from: 10, to: 15, data: null, complete: !1 }, { from: 16, to: 22, data: null, complete: !1 }] : [{ from: 4, to: 9, data: null, complete: !1 }, { from: 10, to: 15, data: null, complete: !1 }, { from: 16, to: 25, data: null, complete: !1 }, { from: 26, to: 40, data: null, complete: !1 }], s = function (e) { var t = !0; return r.each(a, function (n, r) { return n < e && !r.complete && (t = !1), t }), t }, u = function (n) { t.append(n.data), n.complete = !0, e.trigger("lomo:added") }, c = function () { var e = !0; return r.each(a, function (t, n) { return !!n.fetched || (e = !1, !1) }), e }, l = function () { r.each(a, function (e, t) { t.complete || null === t.data || u(t) }) }; n.length > 0 && n.data("progressive-url") && r.each(a, function (e, t) { r.ajax({ url: n.data("progressive-url") + "/" + t.from + "/" + t.to + (o ? "/low" : "/high") }).done(function (n) { t.fetched = !0, t.data = n, s(e) && u(t), c() && l() }) }) })
