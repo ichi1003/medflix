@@ -325,22 +325,6 @@ a {
   border: 1px solid #e50914
 }
 
-.secondary-button {
-  background: transparent url(https://assets.nflxext.com/ffe/siteui/akira/fallback/secondary_button_background.png) repeat;
-  border: 1px solid #999;
-  color: #fff;
-  font-weight: 700;
-  padding: .57em 1.35em
-}
-
-.secondary-button:hover {
-  background: transparent url(https://assets.nflxext.com/ffe/siteui/akira/fallback/secondary_button_hover_background.png) repeat
-}
-
-.secondary-button:active {
-  border: 1px solid #fff
-}
-
 .row-name {
   font-size: 1.2em;
   font-weight: 700;
@@ -361,7 +345,7 @@ a {
 }
 
 .header {
-  background: url(https://assets.nflxext.com/ffe/siteui/akira/fallback/header_gradient.png) repeat-x;
+  background: url(./common/header_bg.png) repeat-x;
   height: 70px;
   position: fixed;
   top: 0;
@@ -412,36 +396,36 @@ a {
 }
 
 @media screen and (min-width:801px) and (max-width:1100px) {
-  .header-netflix-logo {
+  .header-fullname-logo {
     width: 450px
   }
 }
 
-.column-4 .header-netflix-logo {
+.column-4 .header-fullname-logo {
   width: 450px
 }
 
 @media screen and (min-width:1101px) and (max-width:1400px) {
-  .header-netflix-logo {
+  .header-fullname-logo {
     width: 450px
   }
 }
 
-.column-5 .header-netflix-logo {
+.column-5 .header-fullname-logo {
   width: 450px
 }
 
 @media screen and (min-width:1401px) and (max-width:1700px) {
-  .header-netflix-logo {
+  .header-fullname-logo {
     width: 450px
   }
 }
 
-.column-6 .header-netflix-logo {
+.column-6 .header-fullname-logo {
   width: 450px
 }
 
-.netflix-logo {
+.fullname-logo-main {
   float: left;
   height: 34px;
   position: relative;
@@ -449,30 +433,30 @@ a {
 }
 
 @media screen and (max-width:500px) {
-  .netflix-logo {
+  .fullname-logo-main {
     height: 24px;
     width: 84px
   }
 }
 
-.column-2 .netflix-logo {
+.column-2 .fullname-logo-main {
   height: 24px;
   width: 84px
 }
 
 @media screen and (min-width:501px) and (max-width:800px) {
-  .netflix-logo {
+  .fullname-logo-main {
     height: 24px;
     width: 84px
   }
 }
 
-.column-3 .netflix-logo {
+.column-3 .fullname-logo-main {
   height: 24px;
   width: 84px
 }
 
-.netflix-logo-image {
+.fullname-logo-image {
   bottom: 0;
   height: 34px;
   left: 0;
@@ -483,25 +467,25 @@ a {
 }
 
 @media screen and (max-width:500px) {
-  .netflix-logo-image {
+  .fullname-logo-image {
     height: 24px;
     width: 84px
   }
 }
 
-.column-2 .netflix-logo-image {
+.column-2 .fullname-logo-image {
   height: 24px;
   width: 84px
 }
 
 @media screen and (min-width:501px) and (max-width:800px) {
-  .netflix-logo-image {
+  .fullname-logo-image {
     height: 24px;
     width: 84px
   }
 }
 
-.column-3 .netflix-logo-image {
+.column-3 .fullname-logo-image {
   height: 24px;
   width: 84px
 }
@@ -637,27 +621,27 @@ a {
   display: none
 }
 
-.netflix-header-more {
+.title-header-more {
   height: 31px
 }
 
 @media screen and (max-width:500px) {
-  .netflix-header-more {
+  .title-header-more {
     height: 24px
   }
 }
 
-.column-2 .netflix-header-more {
+.column-2 .title-header-more {
   height: 24px
 }
 
 @media screen and (min-width:501px) and (max-width:800px) {
-  .netflix-header-more {
+  .title-header-more {
     height: 24px
   }
 }
 
-.column-3 .netflix-header-more {
+.column-3 .title-header-more {
   height: 24px
 }
 
