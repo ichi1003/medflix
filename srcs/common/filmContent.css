@@ -2110,10 +2110,6 @@ a.spotlight-name:hover {
   text-decoration: none
 }
 
-.details-link:hover {
-  text-decoration: underline
-}
-
 .kids .details-link {
   color: #333
 }
@@ -2146,4 +2142,21 @@ a.spotlight-name:hover {
 
 .details-standalone {
   padding-top: 2em
+}
+
+
+
+
+@media screen and (max-width:500px) {
+  .mobile-only {
+    display: none;
+  }
+}
+
+.mobile-only {
+  font-size: 14px;
+  vertical-align: middle;
+  text-align:center;
+  color: rgb(73, 71, 71);
+  padding: 4px 0px;
 }

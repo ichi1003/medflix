@@ -397,22 +397,22 @@ a {
 
 @media screen and (min-width:801px) and (max-width:1100px) {
   .header-fullname-logo {
-    width: 450px
+    width: 350px
   }
 }
 
 .column-4 .header-fullname-logo {
-  width: 450px
+  width: 350px
 }
 
 @media screen and (min-width:1101px) and (max-width:1400px) {
   .header-fullname-logo {
-    width: 450px
+    width: 350px
   }
 }
 
 .column-5 .header-fullname-logo {
-  width: 450px
+  width: 350px
 }
 
 @media screen and (min-width:1401px) and (max-width:1700px) {
@@ -422,7 +422,7 @@ a {
 }
 
 .column-6 .header-fullname-logo {
-  width: 450px
+  width: 350px
 }
 
 .fullname-logo-main {
@@ -2341,4 +2341,20 @@ a.spotlight-name:hover {
   .mainView .page-transition-loader {
     padding: 0 60px
   }
+}
+
+
+
+@media screen and (max-width:500px) {
+  .mobile-only {
+    display: none;
+  }
+}
+
+.mobile-only {
+  font-size: 14px;
+  vertical-align: middle;
+  text-align:center;
+  color: rgb(73, 71, 71);
+  padding: 4px 0px;
 }
