@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en" class=" ">
+
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>Medflix</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link type="text/css" rel="stylesheet" href="../srcs/common/filmContent.css">
+    <script src="../srcs/common/filmContent.js" async=""></script>
+    <link rel="shortcut icon" href="../srcs/icon.ico">
+    <link rel="apple-touch-icon" href="../srcs/icon.png">
+  </head>
+
+  <body>
+    <div id="appMountPoint">
+      <div class="column-counter touch-exclusive" dir="ltr">
+        <div class="fallbackSite">
+          <table class="header">
+            <tbody>
+              <tr>
+                <td class="header-item has-inline-left-gutter header-fullname-logo">
+                  <a
+                    href="https://staceylai.github.io/medflix/"
+                    class="header-navigation-menu header-navigation-genres">
+                    <img src="../srcs/hamburger.gif" class="title-header-more">
+                    <div class="header-navigation-slider-background"></div>
+                    <div class="header-navigation-slider" style="left: 0px;">
+                      <ol class="navigation-menu-settings">
+                        <li class="has-inline-left-gutter navigation-menu-profile">
+                          <img src="../srcs/profile.png" class="header-profile-avatar">
+                          <p class="navigation-menu-profile-link">
+                            <span class="navigation-menu-profile-name">MTKer</span>
+                            <span lass="navigation-menu-profile-text">切換使用者</span>
+                          </p>
+                        </li>
+                        <li class="has-inline-left-gutter navigation-menu-setting">帳戶</li>
+                        <li class="has-inline-left-gutter navigation-menu-setting">說明中心</li>
+                        <li class="has-inline-left-gutter navigation-menu-setting">登出 Medflix</li>
+                      </ol>
+                      <ol class="navigation-menu-sections">
+                        <li
+                          class="has-inline-left-gutter-border navigation-menu-section"
+                          data-href="https://staceylai.github.io/medflix/">
+                          首頁
+                        </li>
+                        <li
+                          class="has-inline-left-gutter-border navigation-menu-section"
+                          data-href="https://staceylai.github.io/medflix/"
+                        >
+                          我的片單
+                        </li>
+                      </ol>
+                      <ol class="navigation-menu-genres">
+                        <li class="has-inline-left-gutter-border navigation-menu-genre">驚悚</li>
+                        <li class="has-inline-left-gutter-border navigation-menu-genre">親子皆宜</li>
+                        <li class="has-inline-left-gutter-border navigation-menu-genre">國際電影與節目</li>
+                        <li class="has-inline-left-gutter-border navigation-menu-genre">實境、綜藝與談話性節目</li>
+                        <li class="has-inline-left-gutter-border navigation-menu-genre">動作滿檔的作品</li>
+                        <li class="has-inline-left-gutter-border navigation-menu-genre">動漫</li>
+                        <li class="has-inline-left-gutter-border navigation-menu-genre">奇幻</li>
+                        <li class="has-inline-left-gutter-border navigation-menu-genre">喜劇</li>
+                        <li class="has-inline-left-gutter-border navigation-menu-genre">科幻</li>
+                        <li class="has-inline-left-gutter-border navigation-menu-genre">恐怖之作</li>
+                        <li class="has-inline-left-gutter-border navigation-menu-genre">台灣電影與節目</li>
+                        <li class="has-inline-left-gutter-border navigation-menu-genre">單口喜劇</li>
+                        <li class="has-inline-left-gutter-border navigation-menu-genre">紀錄片</li>
+                        <li class="has-inline-left-gutter-border navigation-menu-genre">亞洲電影與節目</li>
+                        <li class="has-inline-left-gutter-border navigation-menu-genre">好萊塢電影</li>
+                        <li class="has-inline-left-gutter-border navigation-menu-genre">音樂及音樂劇</li>
+                        <li class="has-inline-left-gutter-border navigation-menu-genre">浪漫愛情</li>
+                        <li class="has-inline-left-gutter-border navigation-menu-genre">華語電影與節目</li>
+                        <li class="has-inline-left-gutter-border navigation-menu-genre">劇情片</li>
+                      </ol>
+                    </div>
+                  </a>
+                  <a href="https://staceylai.github.io/medflix/" class="fullname-logo-main">
+                    <img src="../srcs/logo-fullname.png" class="fullname-logo-image">
+                  </a>
+                  <a href="https://staceylai.github.io/medflix/" class="header-browse header-navigation-trigger header-has-genres">
+                    <span class="header-navigation-text">瀏覽</span>
+                    <div class="header-browse-menu header-subnavigation">
+                      <ol class="browse-menu-sections">
+                        <li class="browse-menu-section" data-href="https://staceylai.github.io/medflix/">首頁</li>
+                        <li class="browse-menu-section" data-href="https://staceylai.github.io/medflix/">我的片單</li>
+                      </ol>
+                      <ol class="browse-menu-genres">
+                        <li class="browse-menu-genre">驚悚</li>
+                        <li class="browse-menu-genre">親子皆宜</li>
+                        <li class="browse-menu-genre">國際電影與節目</li>
+                        <li class="browse-menu-genre">實境、綜藝與談話性節目</li>
+                        <li class="browse-menu-genre">動作滿檔的作品</li>
+                        <li class="browse-menu-genre">動漫</li>
+                        <li class="browse-menu-genre">奇幻</li>
+                        <li class="browse-menu-genre">喜劇</li>
+                        <li class="browse-menu-genre">科幻</li>
+                        <li class="browse-menu-genre">恐怖之作</li>
+                        <li class="browse-menu-genre">台灣電影與節目</li>
+                        <li class="browse-menu-genre">單口喜劇</li>
+                        <li class="browse-menu-genre">紀錄片</li>
+                        <li class="browse-menu-genre">亞洲電影與節目</li>
+                        <li class="browse-menu-genre">好萊塢電影</li>
+                        <li class="browse-menu-genre">音樂及音樂劇</li>
+                        <li class="browse-menu-genre">浪漫愛情</li>
+                        <li class="browse-menu-genre">華語電影與節目</li>
+                        <li class="browse-menu-genre">劇情片</li>
+                      </ol>
+                    </div>
+                  </a>
+                  <a class="header-kids-menu header-navigation-trigger">
+                    <span class="header-navigation-text">兒童專區</span>
+                  </a>
+                </td>
+                <td class="header-item has-inline-right-gutter header-profile-wrapper">
+                  <a class="header-profile">
+                    <img src="../srcs/profile.png" class="header-profile-avatar" alt="">
+                      <span class="header-profile-name">MTKer</span>
+                    <div class="header-menu">
+                      <p class="header-menu-item">切換使用者</p>
+                      <p class="header-menu-item header-menu-account-item">帳戶</p>
+                      <p class="header-menu-item">說明中心</p>
+                      <p class="header-menu-item">登出 Medflix</p>
+                    </div>
+                  </a>
+                  <form class="header-search-form">
+                    <input type="text" name="q" class="header-search-input header-search-not-placeholder"
+                      placeholder="無法搜尋•́ ▾ •̀ " data-placeholder="無法搜尋•́ ▾ •̀ " disabled="disabled">
+                  </form>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <div class="body-view details-view">
+            <div class="spotlight">
+              <div class="spotlight-wrapper">
+                <div class="spotlight-content has-inline-gutter">
+                  <table class="spotlight-table-wrapper">
+                    <tbody>
+                      <tr>
+                        <td class="spotlight-table-content">
+                          <p class="spotlight-name spotlight-readable">熱舞社試跳課程</p>
+                          <p class="spotlight-metadata spotlight-readable">
+                            <span class="spotlight-year">2023/2024</span>
+                            <span class="spotlight-maturity">18+</span>
+                            <span class="spotlight-duration">2 個月</span>
+                          </p>
+                          <p class="spotlight-description spotlight-readable">
+                            「新竹聯發科熱舞社」以及「竹北聯發科熱舞社」在12月底至1月初皆有免費試跳活動。
+                          </p>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                  <div class="spotlight-background">
+                    <div class="spotlight-gradient spotlight-background-fill"></div>
+                    <img src="./cover.jpg" class="spotlight-still spotlight-background-fill">
+                  </div>
+                </div>
+              </div>
+            </div>
+            <p class="has-inline-gutter details-description">
+              「新竹聯發科熱舞社」以及「竹北聯發科熱舞社」在12月底至1月初皆有免費試跳活動。
+            </p>
+            <div class="has-inline-gutter details-standalone">
+              聯發科技熱舞社於2020年創立，由於社團規模擴大經營，將在2024年分為「新竹聯發科熱舞社」以及「竹北聯發科熱舞社」。
+              <br>
+              <br>
+              「新竹聯發科熱舞社」於一月份有開立專攻課程師資包含:
+              <br>
+              婕安、釣妹、品誠、異鄉人等重量級師資，開課資訊請密切關注生活版或熱舞社wiki!
+              <br>
+              <br>
+              「新竹聯發科熱舞社」以及「竹北聯發科熱舞社」在12月底至1月初皆有免費試跳活動：
+              <br>
+              <br>
+              <h2 class="row-name">
+                新竹熱舞社試跳資訊 共8堂
+              </h2>
+              #1
+              <br>
+              小Joy 舞感養成
+              <br>
+              12/25 星期一 18:45 – 19:45 (60 min)
+              <br>
+              新竹E棟韻律教室 (人數上限15位)
+              <br><br>
+              #2
+              <br>
+              小Joy 舞感養成
+              <br>
+              12/25 星期一 20:00 – 21:00 (60 min)
+              <br>
+              新竹E棟韻律教室 (人數上限15位)
+              <br><br>
+              #3
+              <br>              
+              可明 Popping
+              <br>
+              12/26 星期二 19:15 – 20:45 (90 min)
+              <br>
+              新竹AB棟韻律教室 (人數上限25位)
+              <br><br>
+              #4
+              <br>              
+              Ana Jazz入門
+              <br>
+              12/27 星期三 18:30 – 19:40 (70 min)
+              <br>
+              新竹AB棟韻律教室 (人數上限25位)
+              <br><br>
+              #5
+              <br>
+              Ana HipHop Jazz進階
+              <br>
+              12/27 星期三 19:50 – 21:00 (70 min)
+              <br>
+              新竹AB棟韻律教室 (人數上限25位)
+              <br><br>
+              #6
+              <br>              
+              小安 基礎律動
+              <br>
+              12/28 星期四 19:15 – 20:45 (90 min)
+              <br>
+              新竹E棟韻律教室 (人數上限15位)
+              <br><br>
+              #7
+              <br>
+              小可 韓風MV女團
+              <br>
+              01/02 星期二 19:15 – 20:45 (90 min)
+              <br>
+              新竹AB棟韻律教室 (人數上限25位)
+              <br><br>
+              #8
+              <br>              
+              小伶 House
+              <br>
+              01/03 星期三 19:15 – 20:45 (90 min)
+              <br>
+              新竹AB棟韻律教室 (人數上限25位)
+              <br><br><br>
+              <h2 class="row-name">
+                竹北熱舞社試跳資訊  共5堂
+              </h2>
+              #1
+              <br>
+              慈瑩 Hiphop Jazz
+              <br>
+              12/26 星期二 18:25 – 19:45 (80 min)
+              <br>
+              竹北M棟韻律教室 (人數上限10位)
+              <br><br>
+              #2
+              <br>
+              慈瑩 MV舞風舞感班
+              <br>
+              12/26 星期二 19:50 – 21:10 (80 min)
+              <br>
+              竹北M棟韻律教室 (人數上限10位)
+              <br><br>
+              #3
+              <br>
+              小潘 基礎律動
+              <br>
+              12/27 星期三 19:10 – 20:30 (80 min)
+              <br>
+              竹北M棟韻律教室 (人數上限10位)
+              <br><br>
+              #4
+              <br>
+              丞鎧 基礎律動
+              <br>
+              12/27 星期三 20:45 – 22:05 (80 min)
+              <br>
+              竹北M棟韻律教室 (人數上限10位)
+              <br><br>
+              #5
+              <br>
+              可明 popping 入門
+              <br>
+              12/28 星期四 20:10 – 21:30 (80 min)
+              <br>
+              竹北M棟韻律教室 (人數上限10位)
+              <br><br><br>
+              <h2 class="row-name">
+              免費試跳報名問卷:
+              </h2>
+              ▲ 新竹熱舞社 <a style="color:darkgray" href="https://www.surveycake.com/s/Y7162">https://www.surveycake.com/s/Y7162</a>
+              <br>
+              ▲ 竹北熱舞社 <a style="color:darkgray" href="https://www.surveycake.com/s/PNRGM">https://www.surveycake.com/s/PNRGM</a>
+              <br>
+              <br>
+              <br>
+              試跳課程問題請洽:
+              <br>
+              ▲ 新竹熱舞社課務 - YuChe Tseng (曾于哲) / Boya Lai (賴博亞)
+              <br>
+              ▲ 竹北熱舞社課務 - Po-cheng Huang (黃柏誠)
+              <br>
+            </div>
+            <div class="has-inline-gutter title-details">
+              <div class="person-section">
+                <h3 class="details-name"></h3>
+                <ol class="details-list">
+                  <li><a class="details-link"></a></li>
+                </ol>
+              </div>
+              <div class="person-section">
+                <h3 class="details-name"></h3>
+                <ol class="details-list">
+                  <li><a class="details-link"></a></li>
+                  <li><a class="details-link"></a></li>
+                  <li><a class="details-link"></a></li>
+                  <li><a class="details-link"></a></li>
+                  <li><a class="details-link"></a></li>
+                  <li><a class="details-link"></a></li>
+                </ol>
+              </div>
+            </div>
+          </div>
+          <div class="footer has-inline-gutter">
+            <ol>
+              <li><a href="https://staceylai.github.io/medflix/stuff/filmContent.html">工作人員名單</a></li>
+              <li><a href="https://staceylai.github.io/medflix/contact/contact.htm">聯絡我們</a></li>
+            </ol>
+          </div>
+          <div class="footer has-inline-gutter" style="font-size: 11px">
+            <span>網站僅供聯發科熱舞社社團教學暨成發之藝術用途。</span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div>
+      <script>window.netflix = window.netflix || {}; netflix.reactContext = { "models": { "browserInfo": { "data": { "name": "Mobile\x20Safari", "version": "13.0.3", "major": 13, "minor": 0, "patch": 3, "os": { "name": "iOS", "fullName": "iOS", "version": "13.2.3", "majorVersion": 13, "minorVersion": 2, "patchVersion": 3 }, "device": { "family": "iPhone" }, "isFirefox": false, "isSafari": true, "isIE": false, "isEdge": false, "isChrome": false, "isTesla": false, "isOpera": false, "isEdgeOSS": false, "isWindows": false, "isMac": false, "isChromeOS": false, "isLinux": false, "isAndroid": false, "isIOS": true, "isIOSGT91": true, "isWindowsPhone": false, "isMobile": true, "isAndroidPhone": false, "isWindowsVista": false, "isWindowsXP": false, "isWindows7": false, "isWindows8": false, "isWindows10": false, "originallyIdentifiedAsAppleMail": false, "features": { "webp": false, "es2015": false, "fontDisplayProperty": true, "supportsGames": false, "drmSystem": "fps", "maybeSupportsHTML5": true, "maybeSupportsHTML5withDRM": false, "maybeSupportsSL": false }, "specialFlags": {}, "esnPrefix": "NFCDSF-PH-", "_rawResult": { "family": "Mobile\x20Safari", "major": "13", "minor": "0", "patch": "3", "device": { "family": "iPhone", "major": "0", "minor": "0", "patch": "0" }, "os": { "family": "iOS", "major": "13", "minor": "2", "patch": "3" } } }, "type": "Model" }, "geo": { "data": { "locale": { "id": "zh-TW" } } }, "truths": { "data": { "isIELt12": false, "isIELt10": false, "isIELt9": false, "isIELt8": false, "isIpadSafariLt8": false, "isSafariLt8": false, "isSafariGt5": false, "isChromeLt47": false, "isAndroidBrowserLt4": false, "isIELt9AndIpadLt8": false, "needsShim": false, "missingFullVWSupport": false, "missingArrayFind": true, "currentProfileIsKids": false } } } };</script>
+    </div>
+    <script>
+      if ('serviceWorker' in navigator && navigator.serviceWorker.getRegistrations) {
+        navigator.serviceWorker.getRegistrations().then(function (registrations) {
+          if (registrations) {
+            registrations.forEach(function (registration) {
+              registration.unregister().catch(function () { });
+            });
+          }
+        }).catch(function () { });
+      }
+    </script>
+  </body>
+
+</html>
